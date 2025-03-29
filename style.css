@@ -1,1 +1,53 @@
+body {
+    background: linear-gradient(to right, #ca4220, #feb47b);
+}
 
+header {
+    font-size: 3em;
+    display: flex;
+    justify-content: center; /* Centers the text horizontally */
+    align-items: center; /* Centers the text vertically */
+    background: linear-gradient(to left, #fa07c1, #603363); /* Gradient colors */
+    -webkit-background-clip: text; /* Clips the background to the text */
+    -webkit-text-fill-color: transparent; /* Makes the text color transparent */
+}
+
+/*div {
+    background-image: url("pig-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}*/
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-around; /* Flexbox method */
+    padding: 10px;
+}
+
+.nav-button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    margin: 0 15px; /* Margin method */
+    padding: 10px 15px; /* Padding method */
+    border-radius: 5px; /*Add outline of button */
+}
+
+.nav-button:hover {
+    background-color: #feb47b;
+}
+
+#about-title {
+    display: flex;
+    justify-content: center; /* Centers the text horizontally */
+    align-items: center; /* Centers the text vertically */
+}
+
+#home-page-text {
+    display: flex;
+    justify-content: center; /* Centers the text horizontally */
+    align-items: center; /* Centers the text vertically */
+}
