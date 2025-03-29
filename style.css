@@ -12,12 +12,6 @@ header {
     -webkit-text-fill-color: transparent; /* Makes the text color transparent */
 }
 
-/*div {
-    background-image: url("pig-image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}*/
 
 nav {
     background-color: black;
@@ -46,8 +40,15 @@ nav {
     align-items: center; /* Centers the text vertically */
 }
 
-#home-page-text {
-    display: flex;
-    justify-content: center; /* Centers the text horizontally */
-    align-items: center; /* Centers the text vertically */
+.home-page-text {
+    display: inline-flex;
+    /*width: 20%; /* Ensures the container takes up the full width */
+    justify-content: space-between; /* Distributes space evenly */
+    padding: 0 20%; /* Adds padding to the left and right edges of the container fix spacing between paragraphes */
+    box-sizing: border-box; /* Ensures padding is included in the element's total width */
+}
+
+.home-page-text p {
+    margin: 0; /* Removes default margin from paragraphs */
+    white-space: nowrap; /* Prevents paragraphs from wrapping to the next line */
 }
