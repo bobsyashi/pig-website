@@ -57,3 +57,17 @@ nav {
     justify-content: center; /* Centers the text horizontally */
     align-items: center; /* Centers the text vertically */
 }
+
+.ham-pic {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center; /* Centers the text horizontally */
+    align-items: center; /* Centers the text vertically */
+}
+
+.q-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
