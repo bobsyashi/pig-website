@@ -41,10 +41,9 @@ nav {
 }
 
 .home-page-text {
-    display: inline-flex;
-    justify-content: space-between; /* Distributes space evenly */
-    padding: 0px 125px; /* Adds padding to the left and right edges of the container fix spacing between paragraphes */
-    box-sizing: border-box; /* Ensures padding is included in the element's total width */
+    display: inline-block;
+    margin: 0 15px; /* Margin method */
+    padding: 10px 20px;
 }
 
 .home-page-text p {
