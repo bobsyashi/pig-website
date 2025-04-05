@@ -7,7 +7,7 @@ header {
     display: flex;
     justify-content: center; /* Centers the text horizontally */
     align-items: center; /* Centers the text vertically */
-    background: linear-gradient(to left, #fa07c1, #603363); /* Gradient colors */
+    background: linear-gradient(to left, #ff86d9, #e9c4ec); /* Gradient colors */
     -webkit-background-clip: text; /* Clips the background to the text */
     -webkit-text-fill-color: transparent; /* Makes the text color transparent */
 }
@@ -64,7 +64,7 @@ nav {
 .image {
     display: flex;
     justify-content: center; /* Centers the text horizontally */
-    align-items: center; /* Centers the text vertically */
+    align-items: flex-start; /* Aligns top of images */
 }
 
 .ham-pic {
@@ -73,6 +73,24 @@ nav {
     display: flex;
     justify-content: center; /* Centers the text horizontally */
     align-items: center; /* Centers the text vertically */
+}
+
+.heritage-text {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#ham-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#farm-text {
+    text-align: right;
+    margin-right: 15%;
+    margin-top: 10%;
 }
 
 .q-text {
@@ -103,4 +121,42 @@ nav {
 
 #sec-row {
     padding: 5%;
+}
+
+.donate-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.donate-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    text-align: center;
+}
+
+.fun-button {
+    display: inline-block;
+    vertical-align: middle !important;
+    text-align: center !important;
+    border-radius: 5px;
+    border: 3px solid #feb47b;
+    background-color: aqua;
+    padding: 10px, 15px;
+    margin: 5px, 10px;
+    font-size: 20px;
+    width: 100px;
+    transition: transform 0.3s ease; 
+}
+
+.fun-button:hover {
+    background-color: coral;
+    transform: translateY(5px);
+    transform: translateX(5px);
 }
