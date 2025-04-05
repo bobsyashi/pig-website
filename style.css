@@ -34,6 +34,14 @@ nav {
     background-color: #feb47b;
 }
 
+.front-page {
+    background-image:url('better-pig-image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
 #about-title {
     display: flex;
     justify-content: center; /* Centers the text horizontally */
@@ -75,17 +83,22 @@ nav {
 
 .poem-title {
     display: flex;
-    justify-content: center;
+    margin-left: 15%;
     align-items: center;
     margin-top: 5%;
 }
 
 .poem {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.poem-div {
+    display: flex;
+    align-items: center;
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
     line-height: 2;
-    margin-right: 10%;
-    margin-left: 10%;
 }
 
 #sec-row {
