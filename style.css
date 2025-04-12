@@ -160,3 +160,9 @@ nav {
     transform: translateY(5px);
     transform: translateX(5px);
 }
+
+.testimonies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
