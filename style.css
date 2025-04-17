@@ -48,6 +48,13 @@ nav {
     align-items: center; /* Centers the text vertically */
 }
 
+
+.home-page-div {
+    display: flex;
+    justify-content: center; /* Centers the text horizontally */
+    align-items: center; /* Centers the text vertically */
+}
+
 .home-page-text {
     display: inline-block;
     margin: 0 15px; /* Margin method */
