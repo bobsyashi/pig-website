@@ -120,15 +120,40 @@ nav {
 
 .poem-div {
     display: flex;
+    padding-left: 2%;
     align-items: center;
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
     line-height: 2;
 }
 
+#poem-relax-pic {
+    padding-left: 5%;
+    padding-right: 2%;
+}
+
+#poem-joy-pic {
+    padding-left: 5%;
+    padding-right: 2%;
+}
+
+.citation {
+    font-size: 12px;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 2;
+}
+
+
+.tab {
+    display: inline-block;
+    width: 40px; /* Adjust width as needed */
+}
+    
+
 #sec-row {
     padding: 5%;
 }
+    
 
 .donate-page {
     display: flex;
